@@ -131,8 +131,7 @@ Score Card (far left)
 &gt; Shows the scores of the current game.  During the game, the computer counts up the scores at the bottom.</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>This educational program was written to demonstrate key algebra concepts and ideas, such as logarithms and basic probability.  The goal of this program is to make a computer, without any human aid, play and win in the probability-based game of Yahtzee.  If you do not know the rules to Yahtzee, please look them up online.
-
+    <value>The goal of this program is to make a computer, without any human aid, play and win in the probability-based game of Yahtzee.
 Please read the help below to learn how to use this program, then press 'Start Demo' to begin.</value>
   </data>
 </root>

@@ -23,12 +23,20 @@ namespace Yahtzee
         public delegate void InvokeScore(string best, double bests);
         public delegate void InvokeMethod();
         int rol = 1;
-
         int[] keep = new int[] { 0, 0, 0, 0, 0 };
-        double upper_multiplier = 83; //83, 125, 200
-        double kind_min = 15; //18, 15
-        double digit_min = 15; //15
-        string random_gen = "Pseudo"; //Crypto, Pseudo
+
+        /////////////////////////
+        // IMPORTANT VARIABLES //
+        /////////////////////////
+
+        ///<summary>The higher this value, the greater the chance that the AI will prefer to score in the top section versus the bottom section, as to try to maximize the chance of the 35 point bonus.</summary>
+        double upper_multiplier = 83;
+        ///<summary>The minimum number of points required for the AI to choose a Three or Four of a kind.  If the possible value is less than this, both kinds are disregarded.</summary>
+        double kind_min = 15;
+        ///<summary>Unless it is the last resort, the minimum number of points that a 5 or a 6 requires in order to be selected.  Ex: If set to 18, the system needs at least 4 5s or 3 6s to select it.</summary>
+        double digit_min = 15;
+        ///<summary>The random number generator, either 'Pseudo' or 'Crypto'.  Setting to Crypto gives increased randomness, which could result in lowered scores.
+        string random_gen = "Crypto";
 
         private static RNGCryptoServiceProvider rngCsp = new RNGCryptoServiceProvider();
         private static Random r = new Random();
