@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Yahtzee.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <userSettings>
+        <Yahtzee.Properties.Settings>
+            <setting name="BestType" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>"The best type in an arrangement, ex. 3 of A Kind"</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+            <setting name="BestScore" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>"The best score of a type in an arrangement, ex. 34.35625626"</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+            <setting name="Ready" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>"Has the current thread finished processing?"</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+        </Yahtzee.Properties.Settings>
+    </userSettings>
+</configuration>
