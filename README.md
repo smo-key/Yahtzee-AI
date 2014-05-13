@@ -3,6 +3,8 @@ Yahtzee AI
 
 This project was designed in 2013 as a testament to a computer's abilities to beat humans (e.g. parents, bosses) consistently at a game of chance.  The result: Yahtzee AI, with an average score of 186 points per round.  (Oh, and it best a human 80% of the time.)
 
+Development Status:**Stable**
+
 How It Works
 -----------
 1. For every dice roll, the computer randomly selects five numbers using a cryptographic random number generator.
